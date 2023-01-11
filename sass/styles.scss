@@ -1,0 +1,33 @@
+@import 'typography.css';
+
+/* COLORS */
+
+/* PRIMARY */
+$very-dark-blue-main-bg: hsl(233, 47%, 7%);
+$dark-desaturated-blue-card-bg: hsl(244, 38%, 16%);
+$soft-violet-accent: hsl(277, 64%, 61%);
+
+/* NEUTRAL */
+$white: hsl(0, 0%, 100%);
+$transparent-white-main-paragraph:hsla(0, 0%, 100%, 0.75);
+$transparent-white-stats-headings:hsla(0, 0%, 100%, 0.6);
+
+/* COMMON */
+html, body {
+    min-width: 100vw;
+}
+
+body {
+    box-sizing: content-box;
+    min-height: 100vh;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN */
+main {
+    width: 330px;
+    height: 790px;
+}

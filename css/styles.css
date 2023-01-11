@@ -1,0 +1,25 @@
+@import 'typography.css';
+/* COLORS */
+/* PRIMARY */
+/* NEUTRAL */
+/* COMMON */
+html, body {
+  min-width: 100vw;
+}
+
+body {
+  box-sizing: content-box;
+  min-height: 100vh;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN */
+main {
+  width: 330px;
+  height: 790px;
+}
+
+/*# sourceMappingURL=styles.css.map */
